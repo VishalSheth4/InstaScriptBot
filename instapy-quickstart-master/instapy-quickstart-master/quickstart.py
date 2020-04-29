@@ -19,8 +19,8 @@ comments = ['Nice shot! @{}',
 
 # get an InstaPy session!
 # set headless_browser=True to run InstaPy in the background
-session = InstaPy(username=insta_username,
-                  password=insta_password,
+session = InstaPy(username=life_explorer_4,
+                  password=tigerF1sh00?,
                   headless_browser=False)
 
 with smart_run(session):
