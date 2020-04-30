@@ -22,8 +22,8 @@ from instapy import InstaPy
 from instapy import smart_run
 
 # login credentials
-insta_username = ''
-insta_password = ''
+insta_username = 'life_explorer_4'
+insta_password = 'tigerF1sh00'
 
 # get an InstaPy session!
 # set headless_browser=True to run InstaPy in the background
@@ -48,7 +48,7 @@ with smart_run(session):
     """ Massive Follow of users followers (I suggest to follow not less than
     3500/4000 users for better results)...
     """
-    session.follow_user_followers(['user1', 'user2', 'user3'], amount=800,
+    session.follow_user_followers(['disha_patel143', 'komal_sharma60'], amount=800,
                                   randomize=False, interact=False)
 
     """ First step of Unfollow action - Unfollow not follower users...

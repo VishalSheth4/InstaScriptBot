@@ -16,8 +16,8 @@ from instapy import InstaPy
 from instapy import smart_run
 
 # login credentials
-insta_username = 'username'
-insta_password = 'password'
+insta_username = 'life_explorer_4'
+insta_password = 'tigerF1sh00'
 
 # restriction data
 dont_likes = ['#exactmatch', '[startswith', ']endswith', 'broadmatch']
@@ -35,7 +35,7 @@ ignore_list = []
 # TARGET data
 """ Set similar accounts and influencers from your niche to target...
 """
-targets = ['user1', 'user2', 'user3']
+targets = ['travel']
 
 """ Skip all business accounts, except from list given...
 """

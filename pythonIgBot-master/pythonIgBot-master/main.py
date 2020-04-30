@@ -17,7 +17,7 @@ max_follows = 50
 def main():
 	global driver
 	print('running script..')
-	driver = webdriver.Chrome('C:/Users/visheth/Desktop/Insta/chromedriver')
+	driver = webdriver.Chrome(executable_path=r'C:\Users\visheth\Desktop\insta\InstaScriptBot\chromedriver\chrome.exe')
 	l = login.Login(driver, username, password)
 	l.signin()
 	gp = getpages.Getpages(driver)

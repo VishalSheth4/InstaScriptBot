@@ -11,7 +11,7 @@ from instapy import InstaPy
 from instapy import smart_run
 
 # get a session!
-session = InstaPy(username='', password='')
+session = InstaPy(username='life_explorer_4', password='tigerF1sh00')
 
 # let's go! :>
 with smart_run(session):
@@ -33,15 +33,24 @@ with smart_run(session):
 
     # session.interact_user_followers(['user1', 'user2', 'user3'],
     # amount=8000, randomize=True)
-    # session.follow_user_followers(['user1', 'user2', 'user3'],
-    # amount=8000, randomize=False, interact=True)
+    session.follow_user_followers(['odisha_photography'],
+    amount=200, randomize=False, interact=True)
     # session.unfollow_users(amount=7500, nonFollowers=True, style="RANDOM",
     # unfollow_after=42*60*60, sleep_delay=3)
-    session.like_by_tags(['???'], amount=8000)
+    session.like_by_tags(['travel'], amount=200)
 
     """ Joining Engagement Pods...
     """
     photo_comments = ['Nice shot! @{}',
+        'I love your profile! @{}',
+        'Your feed is an inspiration :thumbsup:',
+        'Just incredible :open_mouth:',
+        'What camera did you use @{}?',
+        'Love your posts @{}',
+        'Looks awesome @{}',
+        'Getting inspired by you @{}',
+        ':raised_hands: Yes!',
+        'I can feel your passion @{} :muscle:','Nice shot! @{}',
         'I love your profile! @{}',
         'Your feed is an inspiration :thumbsup:',
         'Just incredible :open_mouth:',
